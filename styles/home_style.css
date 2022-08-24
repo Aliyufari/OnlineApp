@@ -1,0 +1,95 @@
+body{
+    overflow-x: hidden;  
+}
+label{
+    padding: 7px;
+    display: table;
+    color: #fff;
+}
+input[type="file"]{
+    display: none;
+}
+#conntent{
+    width: 70%; 
+    overflow: hidden;
+}
+#uploard_image_button{
+    position: absolute;
+    top: 53.5%;
+    margin-bottom: 10px;
+    right: 13.9%;
+    min-width: 100px;
+    max-width: 100px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+#btn-post{
+    margin-top: 10px;
+    min-width: 25%;
+    max-width: 25%;
+}
+#insert_post{
+    margin-top: -20px;
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    border-top: none;
+    padding: 40px 50px;
+}
+#posts{
+   border: 3px solid #e6e6e6;
+   padding: 20px 20px; 
+}
+.col-sm-8{
+    margin: 0 10px;
+}
+#posts-img{
+   padding-top: 5px;
+   padding-right: 10px;
+   min-width: 102%;
+   max-width: 50%;
+}
+#single_post{
+  border: 5px solid #e6e6e6;
+  padding: 40px 50px;  
+}
+.pb-cmnt-container{
+    font-family: Lato;
+    margin-top: 100px;
+}
+.pb-cmnt-texarea{
+    resize: none;
+    padding: 20px;
+    height: 110px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+#find_people{
+    border: 3px solid #e6e6e6;
+    padding: 35px 30px;
+}
+form.search-form input[type='text']{
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 80%;
+    float: left;
+    background: #f1f1f1;
+}
+form.search-form button{
+    float: left;
+    width: 20%;
+    padding: 8px;
+    border: 1px solid grey;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+}
+form.search-form button:hover{
+    background: #0b7dda;
+}
+form.search-form::after{
+    content: "";
+    clear: both;
+    display: table;
+}
